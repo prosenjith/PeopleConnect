@@ -1,0 +1,55 @@
+# 🌐 Kotlin Multiplatform
+**/build/
+**/.gradle/
+**/.idea/
+**/out/
+**/.kotlin/
+
+# 🤖 Android
+*.iml
+.gradle/
+.idea/
+local.properties
+.externalNativeBuild/
+.cxx/
+captures/
+
+# 🍏 iOS / Xcode
+iosApp/Pods/
+iosApp/Podfile.lock
+iosApp/build/
+iosApp/xcuserdata/
+iosApp/*.xcworkspace
+iosApp/*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# 📦 CocoaPods
+iosApp/.symlinks/
+iosApp/Flutter/Flutter.podspec
+iosApp/Flutter/Generated.xcconfig
+
+# ☁️ Backend (Ktor)
+backend/build/
+backend/out/
+backend/.gradle/
+
+# 🍎 macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 📝 Log files
+*.log
+*.tmp
+
+# 📦 JetBrains IDEs
+*.ipr
+*.iws
+
+# ⚙️ VS Code (optional)
+.vscode/
